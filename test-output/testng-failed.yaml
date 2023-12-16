@@ -1,0 +1,11 @@
+name: Failed suite [Default suite]
+configFailurePolicy: skip
+tests:
+  - name: Default test(failed)
+classes:
+    - name: testCases.Test_Inventory_Page_2
+      includedMethods:
+        - name: setup
+        - name: screenshoot_Error_test_remove_2_Products
+        - name: closeBrowser
+

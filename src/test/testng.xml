@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LoginPage_Inventory_Cart_Suite">
+  <test thread-count="5" name="My_Test_Suite">
+    <classes>
+	  <class name="testCases.Test_Multiple_Login_Credentials_7"/>
+	  <class name="testCases.Test_Checkout_Complete_6"/>
+	  <class name="testCases.Test_Checkout_Overview_5"/>
+      <class name="testCases.Test_Checkout_Your_Information_4"/>
+      <class name="testCases.Test_Shopping_Cart_3"/>
+      <class name="testCases.Test_Inventory_Page_2"/>
+      <class name="testCases.Test_LoginPage_1"/>
+      
+    </classes>
+  </test> <!-- My_Test_Suite -->
+</suite> <!-- LoginPage_Inventory_Cart_Suite -->
